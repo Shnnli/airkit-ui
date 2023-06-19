@@ -1,18 +1,9 @@
----
-nav:
-  title: Components
-  path: /components
----
+# Foo
 
-## Foo
+This is an example component.
 
-Demo:
+```jsx
+import { Foo } from 'fast-ui';
 
-```tsx
-import React from 'react';
-import { Foo } from 'dumi-fast-ui';
-
-export default () => <Foo title="First Demo" />;
+export default () => <Foo title="Hello dumi!" />;
 ```
-
-More skills for writing demo: https://d.umijs.org/guide/basic#write-component-demo
