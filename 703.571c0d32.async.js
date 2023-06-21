@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfast_ui=self.webpackChunkfast_ui||[]).push([[703],{93703:function(r,t,n){n.r(t),n.d(t,{Foo:function(){return s}});var a=n(67294),u=n(85893),o=function(f){return(0,u.jsx)("h4",{children:f.title})},s=o}}]);
