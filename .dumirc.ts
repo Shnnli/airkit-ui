@@ -5,10 +5,9 @@ const logo =
 export default defineConfig({
   favicons: [logo],
   outputPath: 'docs-dist',
-  title: 'fast-ui',
   hash: false,
   resolve: {
-    // docDirs: [{ type: 'doc', dir: 'docs' }],
+    docDirs: ['docs'],
     atomDirs: [{ type: 'component', dir: 'components' }],
     // codeBlockMode: 'passive',
   },
