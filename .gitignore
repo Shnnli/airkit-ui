@@ -1,6 +1,5 @@
 /node_modules
 /docs-dist
-/docs
 /vscode
 .dumi/tmp
 .dumi/tmp-test
