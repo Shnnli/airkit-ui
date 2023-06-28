@@ -8,9 +8,15 @@
     "baseUrl": "./",
     "paths": {
       "@@/*": [".dumi/tmp/*"],
-      "fast-ui": ["src"],
+      "fast-ui": ["components/index.ts"],
       "fast-ui/*": ["src/*", "*"]
     }
   },
-  "include": [".dumi/**/*", ".dumirc.ts", "src/**/*"]
+  "include": [
+    ".dumi/**/*",
+    ".dumirc.ts",
+    "src/**/*",
+    "components/Foo",
+    "components/index.ts"
+  ]
 }
