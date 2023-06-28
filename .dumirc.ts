@@ -54,4 +54,6 @@ export default defineConfig({
     footer:
       "<p> Copyright © 2023 | Made with ❤ by <a href='https://github.com/Shnnli/fast-ui'>Shnnli<a><p>",
   },
+  base: process.env.NODE_ENV === 'production' ? `/${repo}/` : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? `/${repo}/` : '/',
 });
