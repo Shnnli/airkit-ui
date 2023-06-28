@@ -1,0 +1,1 @@
+(self.webpackChunkfast_ui=self.webpackChunkfast_ui||[]).push([[5],{1005:function(t,o,n){t.exports=n(51191)},51191:function(t,o,n){"use strict";n.r(o),n.d(o,{Foo:function(){return c}});var f=n(67294),u=n(85893),s=function(e){return(0,u.jsx)("h4",{children:e.title})},c=s}}]);
