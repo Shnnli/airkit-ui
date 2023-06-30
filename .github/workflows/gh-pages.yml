@@ -1,4 +1,4 @@
-name: fast-ui
+name: airkit-ui
 
 on:
   push:

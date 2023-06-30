@@ -7,9 +7,9 @@ interface ProgressProps {
 
 const Progress = (props: ProgressProps) => {
   return (
-    <div className="fast-ui-progress-bar">
+    <div className="airkit-ui-progress-bar">
       <div
-        className="fast-ui-progress"
+        className="airkit-ui-progress"
         style={{ width: `${props.width}` + 'px' }}
       ></div>
     </div>

@@ -1,4 +1,4 @@
-import { Progress } from 'fast-ui';
+import { Progress } from 'airkit-ui';
 import React from 'react';
 
 const App: React.FC = () => {

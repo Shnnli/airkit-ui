@@ -1,5 +1,5 @@
 {
-  "name": "fast-ui",
+  "name": "airkit-ui",
   "version": "0.0.1",
   "description": "一个基于react的轻量级UI库",
   "keywords": [
@@ -7,14 +7,14 @@
     "ui",
     "dumi"
   ],
-  "homepage": "https://github.com/Shnnli/fast-ui/tree/master#readme",
+  "homepage": "https://github.com/Shnnli/airkit-ui/tree/master#readme",
   "bugs": {
-    "url": "https://github.com/Shnnli/fast-ui/issues",
+    "url": "https://github.com/Shnnli/airkit-ui/issues",
     "email": "2501260041@qq.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Shnnli/fast-ui"
+    "url": "https://github.com/Shnnli/airkit-ui"
   },
   "license": "MIT",
   "module": "dist/index.js",

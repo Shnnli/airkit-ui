@@ -1,7 +1,7 @@
-# fast-ui
+# airkit-ui
 
-[![NPM version](https://img.shields.io/npm/v/fast-ui.svg?style=flat)](https://npmjs.org/package/fast-ui)
-[![NPM downloads](http://img.shields.io/npm/dm/fast-ui.svg?style=flat)](https://npmjs.org/package/fast-ui)
+[![NPM version](https://img.shields.io/npm/v/airkit-ui.svg?style=flat)](https://npmjs.org/package/airkit-ui)
+[![NPM downloads](http://img.shields.io/npm/dm/airkit-ui.svg?style=flat)](https://npmjs.org/package/airkit-ui)
 
 A react library developed with dumi
 

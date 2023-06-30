@@ -8,8 +8,8 @@
     "baseUrl": "./",
     "paths": {
       "@@/*": [".dumi/tmp/*"],
-      "fast-ui": ["components/index.ts"],
-      "fast-ui/*": ["src/*", "*"]
+      "airkit-ui": ["components/index.ts"],
+      "airkit-ui/*": ["src/*", "*"]
     }
   },
   "exclude": ["node_modules"]

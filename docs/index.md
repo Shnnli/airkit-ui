@@ -1,6 +1,6 @@
 ---
 hero:
-  title: Fast-UI
+  title: AirKit-UI
   description: 一个基于react的轻量级UI组件库
   actions:
     - text: 快速开始

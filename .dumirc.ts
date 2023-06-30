@@ -1,5 +1,5 @@
 import { defineConfig } from 'dumi';
-const repo = 'fast-ui';
+const repo = 'airkit-ui';
 const logo =
   process.env.NODE_ENV === 'production' ? `/${repo}/logo.png` : '/logo.png';
 export default defineConfig({
@@ -12,14 +12,14 @@ export default defineConfig({
     // codeBlockMode: 'passive',
   },
   alias: {
-    'fast-ui': require.resolve('./.dumi/fastui.js'),
+    'airkit-ui': require.resolve('./.dumi/airkit-ui.js'),
   },
   themeConfig: {
-    name: 'fast-ui',
+    name: 'airkit-ui',
     logo: logo,
     rtl: true,
     socialLinks: {
-      github: 'https://github.com/Shnnli/fast-ui',
+      github: 'https://github.com/Shnnli/airkit-ui',
       // weibo: 'https://xxxx',
       // twitter: 'https://xxxx',
       // gitlab: 'https://xxxx',
@@ -51,7 +51,7 @@ export default defineConfig({
       ],
     },
     footer:
-      "<p> Copyright © 2023 | Made with ❤ by <a href='https://github.com/Shnnli/fast-ui'>Shnnli<a><p>",
+      "<p> Copyright © 2023 | Made with ❤ by <a href='https://github.com/Shnnli/airkit-ui'>Shnnli<a><p>",
   },
   base: process.env.NODE_ENV === 'production' ? `/${repo}/` : '/',
   publicPath: process.env.NODE_ENV === 'production' ? `/${repo}/` : '/',
