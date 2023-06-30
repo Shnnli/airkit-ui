@@ -12,11 +12,5 @@
       "fast-ui/*": ["src/*", "*"]
     }
   },
-  "include": [
-    ".dumi/**/*",
-    ".dumirc.ts",
-    "src/**/*",
-    "components/Foo",
-    "components/index.ts"
-  ]
+  "exclude": ["node_modules"]
 }
