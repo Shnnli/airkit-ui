@@ -1,0 +1,21 @@
+.fast-ui-progress-bar {
+  width: 100%;
+  height: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  overflow: hidden;
+
+  .fast-ui-progress {
+    height: 100%;
+    background-color: #0af;
+  }
+
+  .fast-ui-progress::after {
+    content: attr(style);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+}
