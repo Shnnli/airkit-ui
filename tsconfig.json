@@ -9,6 +9,7 @@
     "paths": {
       "@@/*": [".dumi/tmp/*"],
       "airkit-ui": ["components/index.ts"],
+      "airkit-ui/es/*": ["components/*"],
       "airkit-ui/*": ["src/*", "*"]
     }
   },
