@@ -1,4 +1,10 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
+# Run Jest tests before committing
+if ! npm test; then
+  echo "Jest tests did not pass. Commit canceled."
+  exit 1
+fi
+
 npx lint-staged
