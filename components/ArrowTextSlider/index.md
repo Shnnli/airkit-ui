@@ -1,6 +1,6 @@
 ## 代码演示
 
-进度条组件
+箭头文本滑块组件
 
 <!-- prettier-ignore -->
 <code src="./demo/basic.tsx"></code>

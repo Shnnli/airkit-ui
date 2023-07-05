@@ -1,0 +1,57 @@
+.carousel {
+  position: relative;
+  width: 100%;
+}
+
+.carousel-item {
+  display: flex;
+  overflow: hidden;
+  height: 300px;
+}
+
+.carousel-item > * {
+  flex: 0 0 100%;
+  transition: transform 0.5s ease;
+  transform: translateX(calc(var(--current-index) * -100%));
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: none;
+  cursor: pointer;
+
+  /* 提高层级 */
+  z-index: 2;
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
+}
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #333;
+}
