@@ -5,7 +5,7 @@ const App: React.FC = () => {
   return (
     <div>
       <span>大漠孤烟直</span>
-      <Divider></Divider>
+      <Divider direction="vertical"></Divider>
       <span>长河落日圆</span>
     </div>
   );

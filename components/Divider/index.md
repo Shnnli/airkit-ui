@@ -15,8 +15,31 @@ group:
 
 ## 基础用法
 
+对不同段落的文本进行分割,
+
 <!-- prettier-ignore -->
 <code src="./demo/basic.tsx"></code>
+
+## 设置文案
+
+`contentPosition` 自定义分隔线内容的位置
+
+<!-- prettier-ignore -->
+<code src="./demo/basicText.tsx"></code>
+
+## 设置分割线样式
+
+`borderStyle` 设置分隔符样式
+
+<!-- prettier-ignore -->
+<code src="./demo/dividerStyleDemo.tsx"></code>
+
+## 设置分割线方向
+
+`direction` 设置分隔符方向
+
+<!-- prettier-ignore -->
+<code src="./demo/verticalDemo.tsx"></code>
 
 ## API
 
