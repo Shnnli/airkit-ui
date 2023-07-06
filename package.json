@@ -75,6 +75,7 @@
     "@types/react-dom": "^18.2.6",
     "@umijs/lint": "^4.0.72",
     "dumi": "^2.2.1",
+    "dumi-theme-antd-style": "^0.27.4",
     "eslint": "^8.43.0",
     "father": "^4.2.3",
     "git-cz": "^4.9.0",
