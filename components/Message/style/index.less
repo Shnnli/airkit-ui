@@ -1,0 +1,50 @@
+@color-primary: #fff;
+@color-success: green;
+@color-error: #fff;
+
+.message-container {
+  position: fixed;
+  z-index: 9999;
+  left: 50%;
+  top: 8px;
+  transform: translateX(-50%);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 88%);
+  font-size: 14px;
+  line-height: 1.5714;
+  list-style: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  width: 100%;
+  pointer-events: none;
+}
+
+.message-notice {
+  padding: 8px;
+  text-align: center;
+
+  .message {
+    display: inline-block;
+    padding: 9px 12px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 8%),
+      0 3px 6px -4px rgba(0, 0, 0, 12%), 0 9px 28px 8px rgba(0, 0, 0, 5%);
+    pointer-events: all;
+
+    &.message-info {
+      background-color: @color-primary;
+    }
+
+    &.message-success {
+      background-color: @color-success;
+    }
+
+    &.message-error {
+      background-color: @color-error;
+    }
+  }
+}

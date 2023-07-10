@@ -3,13 +3,18 @@ import './style/index.less';
 
 export interface ButtonProps {
   type?: 'primary' | 'success' | 'warning' | 'danger';
+  onClick?: () => void;
   children?: React.ReactNode;
 }
 
 const Button = (props: ButtonProps) => {
-  const { type, children } = props;
+  const { type, children, onClick } = props;
   return (
-    <button className={`airkit-button witch-${type}`} type="button">
+    <button
+      className={`airkit-button witch-${type}`}
+      type="button"
+      onClick={onClick}
+    >
       {children}
     </button>
   );
