@@ -1,0 +1,58 @@
+.airkit-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  height: 32px;
+  white-space: nowrap;
+  cursor: pointer;
+  color: var(--airkit-button-text-color);
+  text-align: center;
+  box-sizing: border-box;
+  outline: none;
+  transition: 0.1s;
+  font-weight: var(--airkit-button-font-weight);
+  user-select: none;
+  vertical-align: middle;
+  background-color: var(--airkit-button-bg-color);
+  border: var(--airkit-border);
+  border-color: var(--airkit-button-border-color);
+  padding: 8px 15px;
+  font-size: var(--airkit-font-size-base);
+  border-radius: var(--airkit-border-radius-base);
+}
+
+.airkit-button:hover {
+  color: var(--airkit-button-text-color);
+  border-color: var(--airkit-button-hover-border-color);
+  background-color: var(--airkit-button-hover-bg-color);
+  outline: none;
+}
+
+.airkit-button:active {
+  color: var(--airkit-button-active-text-color);
+  border-color: var(--airkit-button-active-border-color);
+  background-color: var(--airkit-button-active-bg-color);
+  outline: none;
+}
+
+.airkit-button:focus-visible {
+  outline: 2px solid var(--airkit-button-outline-color);
+  outline-offset: 1px;
+}
+
+:root {
+  --airkit-button-text-color: #606266;
+  --airkit-button-font-weight: 500;
+  --airkit-button-bg-color: #fff;
+  --airkit-border: 1px solid #dcdfe6;
+  --airkit-button-border-color: #dcdfe6;
+  --airkit-font-size-base: 14px;
+  --airkit-border-radius-base: 4px;
+  --airkit-button-hover-border-color: #c6e2ff;
+  --airkit-button-hover-bg-color: #ecf5ff;
+  --airkit-button-active-text-color: #409eff;
+  --airkit-button-active-border-color: #409eff;
+  --airkit-button-active-bg-color: #ecf5ff;
+  --airkit-button-outline-color: #a0cfff;
+}

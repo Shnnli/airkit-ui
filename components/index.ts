@@ -1,5 +1,7 @@
 export { default as ArrowTextSlider } from './ArrowTextSlider';
 export type { ArrowTextSliderProps } from './ArrowTextSlider';
+export { default as Button } from './Button';
+export type { ButtonProps } from './Button';
 export { default as Carousel } from './Carousel';
 export type { CarouselProps } from './Carousel';
 export { default as Divider } from './Divider';
