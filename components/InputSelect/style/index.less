@@ -1,0 +1,68 @@
+.divInputSelect {
+  width: 100%;
+  height: 25px;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.divInputSelect .selectInput {
+  width: calc(100% - 21px);
+  height: 100%;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #000;
+  background-color: #f8f8fa;
+  padding-left: 2px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  border-right: 0;
+}
+
+.divInputSelect .optgroup {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: 1px solid #000;
+  background-color: #f8f8fa;
+}
+
+.optgroup:hover + .selectInput {
+  border: 1px solid #000;
+  border-color: #39f;
+}
+
+.divInputSelect select {
+  appearance: none;
+  background: url('../../../public/selectArrow.png') no-repeat calc(100% - 5px) /
+    10px;
+}
+
+.divInputSelect .optgroup option:hover {
+  background-color: #39f;
+}
+
+.divInputSelect .optgroup .selected {
+  background-color: #609dda;
+}
+
+.divInputSelect .optgroupDiv option {
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+  background-color: #fff5e1;
+}
+
+.divInputSelect .optgroupDiv .selected {
+  background-color: #609dda;
+}
+
+.divInputSelect .optgroupDiv option:hover {
+  background-color: #39f;
+}
